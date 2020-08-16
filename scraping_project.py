@@ -69,7 +69,7 @@ while 1:
         number_of_guesses -= 1
 
     if number_of_guesses == 0:
-        print('No, that\'s incorrect, the name of the author is: ' + random_author)
+        print('No, that\'s incorrect. The name of the author is: ' + random_author)
         continue_playing = input('\nDo you want to continue playing? ')  
         if continue_playing.lower() == 'yes':
             number_of_guesses = 4
